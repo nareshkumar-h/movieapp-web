@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>MovieApp</title>
+</head>
+<body>
+	<h3>Add Movie</h3>
+
+	<form action="../movies/save" method="get">
+
+		<input type="text" name="movieName" placeholder="Enter the movie name"
+			required autofocus />
+		<button type="submit">Submit</button>
+	</form>
+
+	<ul>
+		<li><a href="../movies/list"> List Movie </a></li>
+	</ul>
+</body>
+</html>
