@@ -47,7 +47,6 @@ public class MovieController {
 	@GetMapping("/update")
 	public String update() {
 
-		return "redirect:/movies/list"; // After updating movie, redirect to
-										// movie list page
+		return "redirect:/movies/list"; // After updating movie, redirect to movielist
 	}
 }
