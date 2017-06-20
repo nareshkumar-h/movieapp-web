@@ -10,7 +10,7 @@
 	<form action="../movies/update" method="get">
 
 		<input type="text" name="movieName" placeholder="Enter the movie name"
-			required autofocus  />
+			required autofocus  value="Bahubali"/>
 		<button type="submit">Submit</button>
 	</form>
 

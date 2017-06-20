@@ -5,27 +5,27 @@
 <title>MovieApp</title>
 </head>
 <body>
-	<h3>List of Movies</h3>
+	<h3>Show Movie Details</h3>
 
 	<table border="1">
-		<thead>
-			<tr>
-				<th>Sno</th>
-				<th>Movie Name</th>
-			</tr>
-		</thead>
 		<tbody>
 			<tr>
+				<th>Movie Id</th>
 				<td>1</td>
+			</tr>
+
+			<tr>
+			<tr>
+				<th>Movie Name</th>
 				<td>Bahubali</td>
-				<td><a href="../movies/show?id=1">Show </a></td>
-				<td><a href="../movies/edit?id=1">Edit </a></td>
-				<td><a href="../movies/delete">Delete</a></td>
+			</tr>
+			<tr> <td><a href="../movies/delete"> Delete</a> </td> <td> <a href="../movies/edit"> Edit</a> </td> </tr>
 		</tbody>
 	</table>
 
 	<ul>
 		<li><a href="../movies/create"> Add Movie </a></li>
+		<li><a href="../movies/list"> List Movie </a></li>
 	</ul>
 </body>
 </html>

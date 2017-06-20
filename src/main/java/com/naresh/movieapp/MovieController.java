@@ -23,13 +23,19 @@ public class MovieController {
 	@GetMapping("/show")
 	public String show() {
 		System.out.println("MovieController->show");
+		return "showmovie"; // go to showmovie.jsp
+	}
+	
+	@GetMapping("/edit")
+	public String edit() {
+		System.out.println("MovieController->edit");
 		return "editmovie"; // go to editmovie.jsp
 	}
 
 	@GetMapping("/list")
 	public String list() {
 		System.out.println("MovieController->list");
-		return "movieList"; // go to movieList.jsp
+		return "movielist"; // go to movieList.jsp
 	}
 
 	@GetMapping("/delete")
